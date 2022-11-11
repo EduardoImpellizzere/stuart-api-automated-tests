@@ -1,0 +1,22 @@
+{
+  "name": "stuart-api-automated-tests",
+  "version": "1.0.0",
+  "description": "Automated test for the Stuart API",
+  "main": "index.js",
+  "scripts": {
+    "test-api": "mocha test-api/**/*spec.js --require test-api/global.js --inline-diff -t 10000 -s 500",
+    "test-api:sandbox": "SET NODE_ENV=sandbox&& npm run test-api"
+  },
+  "author": "Eduardo Jose Impellizzere",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "chai-shallow-deep-equal": "^1.4.6",
+    "config": "^3.3.8",
+    "mocha": "^10.1.0"
+  }
+}
