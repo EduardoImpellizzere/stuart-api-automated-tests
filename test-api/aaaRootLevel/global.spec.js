@@ -1,4 +1,3 @@
-global.baseUrl = config.get('baseUrl');
 global.server = config.get('server');
 global.baseHeader = {
   Authorization: '',
@@ -9,7 +8,7 @@ const login = async () => {
   const form = config.get('auth');
 
   const response = await chai
-    .request(baseUrl)
+    .request(server)
     .post(urlLogin)
     .set('content-type', 'application/x-www-form-urlencoded')
     .send(form);

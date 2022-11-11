@@ -1,4 +1,4 @@
-const url = '/addresses/validate';
+const url = 'v2/addresses/validate';
 
 const bench = {
   success: true,
