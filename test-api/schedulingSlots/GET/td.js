@@ -105,13 +105,13 @@ data.invalidType = {
 data.invalidDate = {
   zone: 'amiens',
   type: 'pickup',
-  date: '9999-99-99',
+  date: '14-12-2022',
 };
 
 data.invalidDateFormat = {
   zone: 'amiens',
   type: 'pickup',
-  date: '14-12-2022',
+  date: '9999-99-99',
 };
 
 module.exports = data;

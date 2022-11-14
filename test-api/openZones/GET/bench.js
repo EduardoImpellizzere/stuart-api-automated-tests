@@ -1,10 +1,5 @@
 let bench = {};
 
-bench.franceOperatingZoneDefaultType = {
-  status: 200,
-  body: {},
-};
-
 bench.franceOperatingZonePickingType = {
   status: 200,
   body: {
@@ -81,11 +76,6 @@ bench.franceOperatingZoneDeliveringType = {
   },
 };
 
-bench.unitedKingdomOperatingZoneDefaultType = {
-  status: 200,
-  body: {},
-};
-
 bench.unitedKingdomOperatingZonePickingType = {
   status: 200,
   body: {
@@ -156,11 +146,6 @@ bench.unitedKingdomOperatingZoneDeliveringType = {
       },
     ],
   },
-};
-
-bench.spainOperatingZoneDefaultType = {
-  status: 200,
-  body: {},
 };
 
 bench.spainOperatingZonePickingType = {
@@ -526,11 +511,6 @@ bench.spainOperatingZoneDeliveringType = {
   },
 };
 
-bench.polandOperatingZoneDefaultType = {
-  status: 200,
-  body: {},
-};
-
 bench.polandOperatingZonePickingType = {
   status: 200,
   body: {
@@ -593,11 +573,6 @@ bench.polandOperatingZoneDeliveringType = {
       },
     ],
   },
-};
-
-bench.portugalOperatingZoneDefaultType = {
-  status: 200,
-  body: {},
 };
 
 bench.portugalOperatingZonePickingType = {
@@ -727,11 +702,6 @@ bench.portugalOperatingZoneDeliveringType = {
       },
     ],
   },
-};
-
-bench.italyOperatingZoneDefaultType = {
-  status: 200,
-  body: {},
 };
 
 bench.italyOperatingZonePickingType = {

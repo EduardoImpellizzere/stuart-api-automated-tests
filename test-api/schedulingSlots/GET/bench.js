@@ -1590,17 +1590,17 @@ bench.invalidType = {
 bench.invalidDate = {
   status: 400,
   body: {
-    error: 'INVALID_DATE_FORMAT',
-    message:
-      'Invalid date format. Valid format: YYYY-MM-DD, YYY-MM-DDThh:mm:ssZ or YYY-MM-DDThh:mm:ssTZD',
+    error: 'INVALID_DATE',
+    message: 'Invalid date.',
   },
 };
 
 bench.invalidDateFormat = {
   status: 400,
   body: {
-    error: 'INVALID_DATE',
-    message: 'Invalid date.',
+    error: 'INVALID_DATE_FORMAT',
+    message:
+      'Invalid date format. Valid format: YYYY-MM-DD, YYY-MM-DDThh:mm:ssZ or YYY-MM-DDThh:mm:ssTZD',
   },
 };
 

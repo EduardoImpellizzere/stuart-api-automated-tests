@@ -1,10 +1,5 @@
 let data = {};
 
-data.franceOperatingZoneDefaultType = {
-  zone: 'charleville_mezieres',
-  type: '',
-};
-
 data.franceOperatingZonePickingType = {
   zone: 'charleville_mezieres',
   type: 'picking',
@@ -13,11 +8,6 @@ data.franceOperatingZonePickingType = {
 data.franceOperatingZoneDeliveringType = {
   zone: 'charleville_mezieres',
   type: 'delivering',
-};
-
-data.unitedKingdomOperatingZoneDefaultType = {
-  zone: 'oxford',
-  type: '',
 };
 
 data.unitedKingdomOperatingZonePickingType = {
@@ -30,11 +20,6 @@ data.unitedKingdomOperatingZoneDeliveringType = {
   type: 'delivering',
 };
 
-data.spainOperatingZoneDefaultType = {
-  zone: 'madrid',
-  type: '',
-};
-
 data.spainOperatingZonePickingType = {
   zone: 'madrid',
   type: 'picking',
@@ -43,11 +28,6 @@ data.spainOperatingZonePickingType = {
 data.spainOperatingZoneDeliveringType = {
   zone: 'madrid',
   type: 'delivering',
-};
-
-data.polandOperatingZoneDefaultType = {
-  zone: 'silesia',
-  type: '',
 };
 
 data.polandOperatingZonePickingType = {
@@ -60,11 +40,6 @@ data.polandOperatingZoneDeliveringType = {
   type: 'delivering',
 };
 
-data.portugalOperatingZoneDefaultType = {
-  zone: 'lisboa',
-  type: '',
-};
-
 data.portugalOperatingZonePickingType = {
   zone: 'lisboa',
   type: 'picking',
@@ -73,11 +48,6 @@ data.portugalOperatingZonePickingType = {
 data.portugalOperatingZoneDeliveringType = {
   zone: 'lisboa',
   type: 'delivering',
-};
-
-data.italyOperatingZoneDefaultType = {
-  zone: 'milano',
-  type: '',
 };
 
 data.italyOperatingZonePickingType = {

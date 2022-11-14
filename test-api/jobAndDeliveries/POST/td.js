@@ -28,7 +28,6 @@ data.requiredAndOptionalFields = {
       {
         package_type: 'medium',
         package_description: 'Yellow package',
-        client_reference: 'JOB-01',
         address: 'C/ de Muntaner, 282, 08021 Barcelona',
         comment: 'Comment',
         end_customer_time_window_start: '2022-11-18T11:00:00.000+00:00',

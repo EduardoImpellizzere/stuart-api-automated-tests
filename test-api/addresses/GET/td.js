@@ -13,13 +13,13 @@ data.preciseAddressDeliveringType = {
 };
 
 data.approximateAddressPickingTypeWithPhone = {
-  address: 'Via sense nom, 08010 Barcelona, Spain',
+  address: 'C/ de Mallorca, 08008 Barcelona',
   type: 'picking',
   phone: '+34674591498',
 };
 
 data.approximateAddressDeliveringTypeWithPhone = {
-  address: 'Via sense nom, 08010 Barcelona, Spain',
+  address: 'C/ de Mallorca, 08008 Barcelona',
   type: 'delivering',
   phone: '+34674591498',
 };
@@ -37,15 +37,21 @@ data.invalidAddress = {
 };
 
 data.invalidType = {
-    address: 'C. de Balmes, 18, 08007 Barcelona',
-    type: 'invalid',
-    phone: '+34674591498',
-}
+  address: 'C. de Balmes, 18, 08007 Barcelona',
+  type: 'invalid',
+  phone: '+34674591498',
+};
 
-data.invalidPhone = {
-    address: 'C. de Balmes, 18, 08007 Barcelona',
-    type: 'picking',
-    phone: '+34invalid',
-}
+data.invalidPhonePreciseAddress = {
+  address: 'C. de Balmes, 18, 08007 Barcelona',
+  type: 'picking',
+  phone: '+34invalid',
+};
+
+data.invalidPhoneApproximateAddress = {
+  address: 'C/ de Mallorca, 08008 Barcelona',
+  type: 'picking',
+  phone: '+34invalid',
+};
 
 module.exports = data;

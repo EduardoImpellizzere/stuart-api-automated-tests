@@ -20,7 +20,8 @@ cases.success = [
     bench: bench.approximateAddressPickingTypeWithPhone,
   },
   {
-    testName: 'Approximate address and type equal to delivering with phone number',
+    testName:
+      'Approximate address and type equal to delivering with phone number',
     data: data.approximateAddressDeliveringTypeWithPhone,
     bench: bench.approximateAddressDeliveringTypeWithPhone,
   },
@@ -43,9 +44,14 @@ cases.negative = [
     bench: bench.invalidType,
   },
   {
-    testName: 'Invalid phone number',
-    data: data.invalidPhone,
-    bench: bench.invalidPhone,
+    testName: 'Precise address with invalid phone number',
+    data: data.invalidPhonePreciseAddress,
+    bench: bench.invalidPhonePreciseAddress,
+  },
+  {
+    testName: 'Approximate address with invalid phone number',
+    data: data.invalidPhoneApproximateAddress,
+    bench: bench.invalidPhoneApproximateAddress,
   },
 ];
 

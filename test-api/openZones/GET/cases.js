@@ -4,11 +4,6 @@ const bench = require('./bench');
 let cases = {};
 
 cases.success = [
-  /* {
-    testName: 'France operating zone and default type',
-    data: data.franceOperatingZoneDefaultType,
-    bench: bench.franceOperatingZoneDefaultType,
-  }, */
   {
     testName: 'France operating zone and type equal to picking',
     data: data.franceOperatingZonePickingType,
@@ -19,11 +14,6 @@ cases.success = [
     data: data.franceOperatingZoneDeliveringType,
     bench: bench.franceOperatingZoneDeliveringType,
   },
-  /* {
-    testName: 'United Kingdom operating zone and default type',
-    data: data.unitedKingdomOperatingZoneDefaultType,
-    bench: bench.unitedKingdomOperatingZoneDefaultType,
-  }, */
   {
     testName: 'United Kingdom operating zone and type equal to picking',
     data: data.unitedKingdomOperatingZonePickingType,
@@ -34,11 +24,6 @@ cases.success = [
     data: data.unitedKingdomOperatingZoneDeliveringType,
     bench: bench.unitedKingdomOperatingZoneDeliveringType,
   },
-  /*  {
-    testName: 'Spain operating zone and default type',
-    data: data.spainOperatingZoneDefaultType,
-    bench: bench.spainOperatingZoneDefaultType,
-  }, */
   {
     testName: 'Spain operating zone and type equal to picking',
     data: data.spainOperatingZonePickingType,
@@ -49,11 +34,6 @@ cases.success = [
     data: data.spainOperatingZoneDeliveringType,
     bench: bench.spainOperatingZoneDeliveringType,
   },
-  /* {
-    testName: 'Poland operating zone and default type',
-    data: data.polandOperatingZoneDefaultType,
-    bench: bench.polandOperatingZoneDefaultType,
-  }, */
   {
     testName: 'Poland operating zone and type equal to picking',
     data: data.polandOperatingZonePickingType,
@@ -64,11 +44,6 @@ cases.success = [
     data: data.polandOperatingZoneDeliveringType,
     bench: bench.polandOperatingZoneDeliveringType,
   },
-  /*  {
-    testName: 'Portugal operating zone and default type',
-    data: data.portugalOperatingZoneDefaultType,
-    bench: bench.portugalOperatingZoneDefaultType,
-  }, */
   {
     testName: 'Portugal operating zone and type equal to picking',
     data: data.portugalOperatingZonePickingType,
@@ -79,11 +54,6 @@ cases.success = [
     data: data.portugalOperatingZoneDeliveringType,
     bench: bench.portugalOperatingZoneDeliveringType,
   },
-  /* {
-    testName: 'Italy operating zone and default type',
-    data: data.italyOperatingZoneDefaultType,
-    bench: bench.italyOperatingZoneDefaultType,
-  }, */
   {
     testName: 'Italy operating zone and type equal to picking',
     data: data.italyOperatingZonePickingType,

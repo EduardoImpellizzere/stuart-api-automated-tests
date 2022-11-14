@@ -29,10 +29,10 @@ bench.approximateAddressDeliveringTypeWithPhone = {
 };
 
 bench.emptyParameters = {
-  status: 400,
+  status: 422,
   body: {
-    error: 'BAD_REQUEST',
-    message: "The address is missing.",
+    error: 'CANT_GEOCODE_ADDRESS',
+    message: "The address can't be geocoded",
   },
 };
 
@@ -48,15 +48,23 @@ bench.invalidType = {
   status: 400,
   body: {
     error: 'BAD_REQUEST',
-    message: 'Type does not have a valid value.',
+    message: 'Type does not have a valid value',
   },
 };
 
-bench.invalidPhone = {
+bench.invalidPhonePreciseAddress = {
   status: 422,
   body: {
     error: 'ADDRESS_CONTACT_PHONE_REQUIRED',
-    message: 'Contact phone is required.',
+    message: 'Contact phone is required',
+  },
+};
+
+bench.invalidPhoneApproximateAddress = {
+  status: 422,
+  body: {
+    error: 'ADDRESS_CONTACT_PHONE_REQUIRED',
+    message: 'Contact phone is required',
   },
 };
 

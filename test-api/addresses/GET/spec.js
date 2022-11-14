@@ -30,7 +30,7 @@ describe('Address validation - GET /v2/addresses/validate', () => {
           .set(baseHeader);
 
         expect(response.status).to.equal(testCase.bench.status);
-        expect(response.body).to.shallowDeepEqual(testCase.bench.body);
+        expect(response.body).to.deep.equal(testCase.bench.body);
       });
     });
   });
